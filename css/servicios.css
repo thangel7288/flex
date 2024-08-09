@@ -1,0 +1,39 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;           /* prueba */
+  }
+  
+  .card__item{
+    max-width: 350px;
+    width: 30%;
+    background-color: var(--white-color);
+    color: var(--secod-color);
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card__plan{
+    color: var(--secod-color);
+    margin-bottom: 20px;
+  }
+  
+  .card__precio{
+    font-size: 3rem;
+    color: var(--secod-color);
+    margin-bottom: 20px;
+  }
+  
+  .card__caracteristica {
+    color: var(--secod-color);
+    margin: 25px;
+  }
+  
+  .card__item--activo {
+    background-color: var(--main-color);
+  }
+  
+  

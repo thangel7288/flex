@@ -1,0 +1,15 @@
+.contenedor {
+    max-width: var(--max-width);
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  
+  .vh-100 {
+    height: calc(100vh - var(--nav-heigt));
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
