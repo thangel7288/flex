@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página web</title>
+  <link rel="icon" href="img/favicon-2.png" type="img/png">
+  <meta name="description" content="">
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <a href="#">
+        <img src="img/favicon.png" alt="">
+      </a>
+      <nav class="nav-container">
+        <a href="#inicio" class="enlace">Inicio</a>
+        <a href="#nosotros" class="enlace">Nosotros</a>
+        <a href="#servicios" class="enlace">Servicios</a>
+        <a href="#galeria" class="enlace">Galeria</a>
+        <a href="#contacto" class="enlace">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="inicio">
+      <div class="principal vh-100">
+        <div class="contenedor-texto">
+          <h1 class="titulo"> Bienvenidos al diseño web</h1>
+          <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, hic nemo laudantium quae maxime quisquam sint consectetur tenetur omnis obcaecati.</p>
+          <a href="#" class="boton">Aprende ahora</a>
+        </div>
+        <img src="img/nerd.png" alt="nerd" class="ilustracion">
+      </div>
+    </section>
+ 
+
+  <section id="nosotros">
+    <div class="contenedor principal vh-100 contenedor-nosotros">
+      <img src="img/about.png" alt="about" class="imagen-nosotros">
+      <div class="contenedor-texto">
+        <h2 class="titulo">Nosotros</h2>
+        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officia.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="servicios">
+    <div class="contenedor vh-100">
+      <div class="text-center">
+        <h2 class="titulo">Servicios</h2>
+        <p class="copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.</p>
+      </div>
+      
+      <div class="cards">
+        <div class="card__item">
+          <h3 class="card__plan">Git</h3>
+          <h3 class="card__precio">Básico</h3>
+          <p class="card__caracteristica">Hasta 30 personas por curso</p>
+          <p class="card__caracteristica">Característica 1</p>
+          <p class="card__caracteristica">Característica 2</p>
+          <p class="card__caracteristica">Característica 3</p>
+          <a href="#" class="boton">Aprender ahora</a>
+        </div>
+
+        <div class="card__item card__item--activo">
+            <h3 class="card__plan">Css</h3>
+            <h3 class="card__precio">Intermedio</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <p class="card__caracteristica">Característica 4</p>
+            <p class="card__caracteristica">Característica 5</p>
+            <a href="#" class="boton boton--negro">Aprender ahora</a>
+          </div>
+
+
+        <!-- <div class="card_item card_item--activo">
+          <h3 class="card__plan">Css</h3>
+          <h3 class="card__precio">Intermedio</h3>
+          <p class="card__caracteristica">Hasta 30 personas por curso</p>
+          <p class="card__caracteristica">Característica 1</p>
+          <p class="card__caracteristica">Característica 2</p>
+          <p class="card__caracteristica">Característica 3</p>
+          <p class="card__caracteristica">Característica 2</p>
+          <p class="card__caracteristica">Característica 3</p>
+          <a href="#" class="boton boton--negro">Aprender ahora</a>
+      </div> -->
+
+      <!-- <div class="cards"> -->
+        <div class="card__item">
+          <h3 class="card__plan">Html</h3>
+          <h3 class="card__precio">Básico</h3>
+          <p class="card__caracteristica">Hasta 30 personas por curso</p>
+          <p class="card__caracteristica">Característica 1</p>
+          <p class="card__caracteristica">Característica 2</p>
+          <p class="card__caracteristica">Característica 3</p>
+          <a href="#" class="boton">Aprender ahora</a>
+        </div>
+      </div>
+
+      <section id="galeria">
+        <div class="contenedor vh-100">
+          <div class="text-center">
+            <h2 class="titulo">Galeria</h2>
+            <p class="copy">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.
+            </p>
+          </div>
+
+          <div class="galeria">
+          <img src="img/uno.jpg" alt="img" class="img">
+          <img src="img/dos.jpg" alt="img" class="img">
+          <img src="img/tres.jpg" alt="img" class="img">
+          <img src="img/cuatro.jpg" alt="img" class="img">
+          <img src="img/cinco.jpg" alt="img" class="img">
+          <img src="img/seis.jpg" alt="img" class="img">
+        </div>
+        </div>
+
+        <section id="contacto">
+            <div class="contenedor vh-100">
+              <div class="text-center">
+                <h2 class="titulo">Contáctenos</h2>
+                <p class="copy">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.
+                </p>
+              </div>
+
+              <form class="contacto">
+                <div class="form-group">
+                  <label for="nombre">Nombre</label>
+                  <input type="text" id="nombre" class="input">
+                </div>
+                <div class="form-group">
+                  <label for="nombre">Apellidos</label>
+                  <input type="text" id="apellidos" class="input">
+                </div>
+                <div class="form-group">
+                  <label for="nombre">Teléfono</label>
+                  <input type="text" id="telefono" class="input">
+                </div>
+                <div class="form-group">
+                  <label for="email">Correo</label>
+                  <input type="email" id="email" class="input">
+                </div>
+                <div class="form-group">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea class="input" id="mensaje" cols="12" rows="12"></textarea>
+                </div>
+
+                <button class="boton" type="button">Enviar</button>
+              </form>
+
+        </section>
+
+
+      </main>
+      </section>
+       
+</body>
+
+</html>
