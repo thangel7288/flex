@@ -292,4 +292,31 @@
   }
   
   }
+  .ilustracion, .about-image {
+    width: 500px;
+    height: auto;
+  }
+  
+  @media (max-width: 800px) {
+    .ilustracion, .about-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+  
+    .contenedor-nosotros {
+      flex-direction: column;
+      margin-top: 70px;
+    }
+  
+    .imagen-nosotros {
+      order: 2;
+      margin-top: 20px;
+    }
+  
+    .contenedor-texto {
+      order: 1;
+      margin-top: 100px;
+    }
+  }
   
