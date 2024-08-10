@@ -34,14 +34,13 @@
     display: flex;
     background-color: var(--main-color);
     color: var(--secod-color);
-    /* position: sticky; */
-  
-  /* ................................ */
+
+
     position: fixed;      
     width: 100%;          
     top: 0;               
     z-index: 1000;        
-  /* ................................ */
+
   }
   
   header div {
@@ -125,7 +124,7 @@
   
   
   
-  /* -------------------------NOSOTROS-------------------- */
+  /* -------nosotros------ */
   
   .contenedor-nosotros {
     display: flex;
@@ -134,16 +133,15 @@
   }
   
   
-  /* -------------------------SERVICIOS-------------------- */
+  /* --------Servicios----- */
   
-  /* #servicios {
-  } */
+  
   
   .cards {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;           /* prueba */
+    flex-wrap: wrap;           
   }
   
   .card__item{
@@ -178,7 +176,7 @@
   }
   
   
-  /* -------------------------Galeria-------------------- */
+  /* ---------galeria------ */
   
   .galeria {
     margin: 0 auto;
@@ -194,7 +192,7 @@
     margin-bottom: 30px;
   }
   
-  /* -------------------------Contacto-------------------- */
+  /* ----Contacto------ */
   
   .contacto {
     display: flex;
@@ -221,10 +219,10 @@
   }
   
   
-  /* -------------------------media-query-------------------- */
+  /* ---Media-query--- */
   
   
-  /* -------------------------Inicio-------------------- */
+  
   
   @media (max-width:800px) {
     .principal {
@@ -241,7 +239,7 @@
       order: 2;
     }
   
-  /* ------------------Nosotros------------------- */
+  /* -----Nosotros-- */
   .contenedor-nosotros {
     flex-direction: column;
     margin-top: 70px;
@@ -255,20 +253,20 @@
     order: 1;
     margin-top: 100px;
   }
-  /* ------------------Servicios------------------- */
+  /* ---Servicios---- */
     .servicios {
       flex-direction: column;
       align-items: center;
     }
     
     .card__item {
-      width: 300px; /* Ajusta el ancho de las tarjetas en pantallas pequeñas */
-      max-width: 1000px; /* Limita el ancho máximo de las tarjetas */
+      width: 300px; /* 
+      max-width: 1000px; /*  */
       margin: 50px;
       margin-bottom: -5px;
     }
   
-  /* ------------------Galería------------------- */
+  /* ---Galería--- */
   #galeria {
     flex-direction: column;
     margin-top: 50px;
@@ -285,7 +283,7 @@
   
   
   
-  /* ------------------Contacto------------------- */
+  /* ----Contacto----- */
   
   #contacto {
     margin-top: 1120px;
