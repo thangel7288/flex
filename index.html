@@ -1,103 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  
   <title>Página web</title>
-  <link rel="icon" href="/assets/img/img/favicon-2.png" type="img/png">
-  <meta name="description" content="">
-  
-  <style>
-  </style>
+  <link rel="icon" href="img/favicon-2.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <header>
-    <div class="contenedor">
-      <nav class="nav">
-        <div class="nav__contenedor">
-      
-      <figure class="nav__figure">
-      <img src="/assets/img/img/logo.png" class="nav__logo" alt="logo">
-      </figure>
-
-      
-      <label class="nav__togle">
-        <input type="checkbox" class="nav__input">
-      </label>
-
-       
-         <ul class="nav__list">
-         <li class="nav__item">
-          <a href="#inicio" class="nav__link">Inicio</a>
-         </li>
-
-         <li class="nav__item">
-          <a href="#nosotros" class="nav__link">Nosotros</a>
-         </li>
-
-         <li class="nav__item">
-          <a href="#servicios" class="nav__link">Servicios</a>
-         </li>
-
-         <li class="nav__item">
-          <a href="#galeria" class="nav__link">Galeria</a>
-         </li>
-
-         <li class="nav__item">
-          <a href="#contacto" class="nav__link">Contacto</a>
-         </li>
-         </ul>
-      </nav>  
-    </div>  
+    <div class="contenedor header-content">
+      <a href="#" class="logo">
+        <img src="img/favicon.png" alt="Logo">
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav-container">
+        <a href="#inicio" class="enlace">Inicio</a>
+        <a href="#nosotros" class="enlace">Nosotros</a>
+        <a href="#servicios" class="enlace">Servicios</a>
+        <a href="#galeria" class="enlace">Galería</a>
+        <a href="#contacto" class="enlace">Contacto</a>
+      </nav>
     </div>
   </header>
+
   <main>
-    <section id="inicio">
-      <div class="principal vh-100">
+    <section id="inicio" class="vh-100">
+      <div class="contenedor principal">
         <div class="contenedor-texto">
-          <h1 class="titulo"> Bienvenidos al diseño web</h1>
-          <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, hic nemo laudantium quae maxime quisquam sint consectetur tenetur omnis obcaecati.</p>
+          <h1 class="titulo">Bienvenidos al diseño web</h1>
+          <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quo placeat. Saepe unde quod ab?</p>
           <a href="#" class="boton">Aprende ahora</a>
         </div>
-        <img src="/assets/img/img/nerd.png" alt="nerd" class="ilustracion">
+        <img src="img/nerd.png" alt="nerd" class="ilustracion">
       </div>
     </section>
- 
 
-  <section id="nosotros">
-    <div class="contenedor principal vh-100 contenedor-nosotros">
-      <img src="/assets/img/img/about.png" alt="about" class="imagen-nosotros">
-      <div class="contenedor-texto">
-        <h2 class="titulo">Nosotros</h2>
-        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, officia.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicios">
-    <div class="contenedor vh-100">
-      <div class="text-center">
-        <h2 class="titulo">Servicios</h2>
-        <p class="copy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.</p>
-      </div>
-      
-      <div class="cards">
-        <div class="card__item">
-          <h3 class="card__plan">Git</h3>
-          <h3 class="card__precio">Básico</h3>
-          <p class="card__caracteristica">Hasta 30 personas por curso</p>
-          <p class="card__caracteristica">Característica 1</p>
-          <p class="card__caracteristica">Característica 2</p>
-          <p class="card__caracteristica">Característica 3</p>
-          <a href="#" class="boton">Aprender ahora</a>
+    <section id="nosotros" class="vh-100">
+      <div class="contenedor principal">
+        <img src="img/about.png" alt="about" class="ilustracion">
+        <div class="contenedor-texto">
+          <h2 class="titulo">Nosotros</h2>
+          <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. In praesentium fugit dignissimos, quas molestias et?</p>
         </div>
+      </div>
+    </section>
 
-        <div class="card__item card__item--activo">
-            <h3 class="card__plan">Css</h3>
+    <section id="servicios" class="vh-100">
+      <div class="contenedor">
+        <h2 class="titulo">Servicios</h2>
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, corporis.</p>
+        <div class="cards">
+          <div class="card__item">
+            <h3 class="card__plan">Git</h3>
+            <h3 class="card__precio">Básico</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <a href="#" class="boton">Aprender ahora</a>
+          </div>
+          <div class="card__item card__item--activo">
+            <h3 class="card__plan">CSS</h3>
             <h3 class="card__precio">Intermedio</h3>
             <p class="card__caracteristica">Hasta 30 personas por curso</p>
             <p class="card__caracteristica">Característica 1</p>
@@ -105,57 +71,63 @@
             <p class="card__caracteristica">Característica 3</p>
             <p class="card__caracteristica">Característica 4</p>
             <p class="card__caracteristica">Característica 5</p>
-            <a href="#" class="boton boton--negro">Aprender ahora</a>
+            <a href="#" class="boton">Aprender Ahora</a>
           </div>
-
-
-        <div class="card__item">
-          <h3 class="card__plan">Html</h3>
-          <h3 class="card__precio">Básico</h3>
-          <p class="card__caracteristica">Hasta 30 personas por curso</p>
-          <p class="card__caracteristica">Característica 1</p>
-          <p class="card__caracteristica">Característica 2</p>
-          <p class="card__caracteristica">Característica 3</p>
-          <a href="#" class="boton">Aprender ahora</a>
+          <div class="card__item">
+            <h3 class="card__plan">HTML</h3>
+            <h3 class="card__precio">Básico</h3>
+            <p class="card__caracteristica">Hasta 30 personas por curso</p>
+            <p class="card__caracteristica">Característica 1</p>
+            <p class="card__caracteristica">Característica 2</p>
+            <p class="card__caracteristica">Característica 3</p>
+            <a href="#" class="boton">Aprender ahora</a>
+          </div>
         </div>
       </div>
+    </section>
 
-      <main>
-        
-    
-        <section id="galeria">
-          <div class="contenedor">
-            <div class="text-center">
-              <h2 class="titulo">Galeria</h2>
-              <p class="copy">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.
-              </p>
-            </div>
-    
-            <div class="galeria">
-              <img src="/assets/img/img/uno.jpg" alt="img" class="img">
-              <img src="/assets/img/img/dos.jpg" alt="img" class="img">
-              <img src="/assets/img/img/tres.jpg" alt="img" class="img">
-              <img src="/assets/img/img/cuatro.jpg" alt="img" class="img">
-              <img src="/assets/img/img/cinco.jpg" alt="img" class="img">
-              <img src="/assets/img/img/seis.jpg" alt="img" class="img">
-            </div>
+    <section id="galeria" class="vh-100">
+      <div class="contenedor">
+        <h2 class="titulo">Galería</h2>
+        <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="galeria">
+          <img src="img/uno.jpg" alt="img" class="img">
+          <img src="img/dos.jpg" alt="img" class="img">
+          <img src="img/tres.jpg" alt="img" class="img">
+          <img src="img/cuatro.jpg" alt="img" class="img">
+          <img src="img/cinco.jpg" alt="img" class="img">
+          <img src="img/seis.jpg" alt="img" class="img">
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="vh-100">
+      <div class="contenedor">
+        <h2 class="titulo">Contáctenos</h2>
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <form class="contacto">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" class="input">
           </div>
-        </section>
-    
-        <section id="contacto">
-          <div class="contenedor">
-            <div class="text-center">
-              <h2 class="titulo">Contáctenos</h2>
-              <p class="copy">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, quaerat.
-              </p>
-            </div>
-    
-            <form class="contacto">
-              
-            </form>
+          <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" class="input">
           </div>
-        </section>
-    
-      </main>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo</label>
+            <input type="email" id="email" class="input">
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" class="input" rows="5"></textarea>
+          </div>
+          <button class="boton" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>

@@ -1,0 +1,15 @@
+.principal, .contenedor-nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 100px 0;
+}
+.contenedor-texto {
+  flex-basis: 45%;
+}
+.ilustracion, .about-image {
+  width: 45%;
+  max-width: 500px;
+  height: auto;
+}
